@@ -63,7 +63,7 @@ int main(int argc, char *argv[]){
         t->tm_hour, t->tm_min);
         printf(" chatter (%d/100)\n", clnt_cnt);
     }
-    close(serv_sock);
+    close(serv_sock);1
     return 0;
 }
  
