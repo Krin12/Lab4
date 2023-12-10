@@ -70,7 +70,7 @@ int main(int argc, char *argv[]) {
     gtk_init(&argc, &argv);
 
     GtkWidget *window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
-    gtk_window_set_title(GTK_WINDOW(window), "간단한 계산기");
+    gtk_window_set_title(GTK_WINDOW(window), "GTK Calculator");
     gtk_window_set_default_size(GTK_WINDOW(window), 300, 400);
     g_signal_connect(window, "destroy", G_CALLBACK(gtk_main_quit), NULL);
 
@@ -108,4 +108,3 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-
